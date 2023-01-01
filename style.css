@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+} 
+:root{
+    --text-color:#373737;
+    --border-colors: #717CFF;
+    --border-radiu:11px ;
+    --sapn-color:#717CFF;
+    --text2-color:#7D7D7D;
+} 
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.continer{
+    width: 1236px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header-navihetion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 68px;
+}
+.navigetio-aplay{
+    padding: 9px 32px;
+    border: solid 2px var(--border-colors);
+    border-radius: var(--border-radiu);
+}
+.build-img{
+    background-image: url(./img/buildimg.svg);
+    background-repeat: no-repeat;
+    background-position: 20px 120px;
+}
+.build-text-span{
+    color: var(--sapn-color);
+}
+.build{
+    margin-top: 117px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.build-text h2{
+    width: 550px;
+    font-style: normal;
+font-weight: 900;
+font-size: 56px;
+}
+.build-text p{
+    margin-top: 25px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 21px;
+}
+.bulid-enter{
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    padding: 12px 15px;
+    width: 262px;
+    background-color:  var(--border-colors);
+    border-radius: var(--border-radiu);
+}
+.icon-box{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: star;
+    gap: 30px;
+}
+.logo-box h3{
+    margin-top: 55px;
+    font-weight: 500;
+font-size: 23px;
+line-height: 27px;
+color: var(--text-color);
+}
+.logo-box{
+    text-align: center;
+}
+.logo-box ul{
+    margin-top: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+}
+.logo-box2{
+    padding: 114px 0 59px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+.logo-box2 div{
+    width: 10px;
+height: 10px;
+background-color: #7c7c7c57;
+border-radius: 100%;
+}
+.logo-box2 div:hover{
+    width: 14px;
+    height: 14px;
+    background-color: #717CFF;
+}
